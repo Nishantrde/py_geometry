@@ -90,7 +90,7 @@ if (delx!=0||dely!=0){
         p1: point.pos,
         p2: pointer.pos, 
         width: 2,
-        color: rgb(250, 50, 0),
+        color: rgb(250, 0, 0),
     })
     
     //  drawLines({
