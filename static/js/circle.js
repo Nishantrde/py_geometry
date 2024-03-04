@@ -42,7 +42,7 @@ let text_ = add([
         font: "sans-serif",
         
     }),
-    color(230,0,0),
+    color(230,50,0),
 ])
 
 onUpdate(() =>{
