@@ -85,16 +85,7 @@ if (delx!=0||dely!=0){
         }),
         color(230,230,0),
     ])
-    text_ = add([
-        pos(width()/2, height()/2+70),
-        text("Angle: "+angle, {
-            size: 10, 
-            width: 320, 
-            font: "sans-serif",
-            
-        }),
-        color(230,230,0),
-    ])
+    
     drawLine({
         p1: point.pos,
         p2: pointer.pos, 
