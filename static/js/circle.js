@@ -63,6 +63,7 @@ dely = mouseDeltaPos().y
 distance = Math.floor(Math.sqrt((x-delx)*(x-delx)+(y-dely)*(y-dely)))
 angle = (Math.atan2(pointy - y, x - pointx) * 180 / Math.PI + 360) % 360;
 console.log(angle)
+
 //console.log(delx,dely)
 
 pointer.pos.x = point.pos.x + 35 * Math.cos(-(angle * Math.PI)/180)
@@ -77,6 +78,16 @@ if (delx!=0||dely!=0){
     text_ = add([
         pos(width()/2, height()/2+50),
         text("Mouse: "+xx+","+yy, {
+            size: 10, 
+            width: 320, 
+            font: "sans-serif",
+            
+        }),
+        color(230,230,0),
+    ])
+    text_ = add([
+        pos(width()/2, height()/2+70),
+        text("Angle: "+angle, {
             size: 10, 
             width: 320, 
             font: "sans-serif",
