@@ -5,7 +5,16 @@
     {% load static %}
     <script src="https://unpkg.com/kaboom@3000.0.0-beta.6/dist/kaboom.js"></script>
     <title>Black Background Page</title>
-    <style src = "{% static 'css/circle.css' %}"></style>
+    <!-- <style src = "{% static 'css/circle.css' %}"></style> -->
+    <style>
+        .hollow-circle {
+    width: 100px;
+    height: 100px;
+    border: 2px solid yellow;
+    border-radius: 50%;
+    background: none; /* This makes the background transparent */
+  }
+    </style>
     
 </head>
 <body bgcolor="Black">
