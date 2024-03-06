@@ -2,13 +2,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 50vh;
     margin: 0;
   }
 
 .hollow-circle {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border: 2px solid yellow;
     border-radius: 50%;
     background: none;
