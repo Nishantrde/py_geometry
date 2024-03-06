@@ -19,8 +19,8 @@ body {
     left: 50%;
     transform: translate(-50%, -50%); /* Center the position with translate */
     padding: 10px;
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
+    background-color: #000000;
+    border: 1px solid #fff700;
     border-radius: 5px;
 }
 
