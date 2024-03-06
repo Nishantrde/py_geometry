@@ -6,23 +6,10 @@
     <!-- <script src="https://unpkg.com/kaboom@3000.0.0-beta.6/dist/kaboom.js"></script> -->
     <title>Py Geometry</title>
     <!-- <style src = "{% static 'css/circle.css' %}"></style> -->
-    <style>
-        body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 50vh;
-    margin: 0;
-  }
-
-.hollow-circle {
-    width: 200px;
-    height: 200px;
-    border: 2px solid yellow;
-    border-radius: 50%;
-    background: none;
-  }
-    </style>
+    {% block style %}
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/circle.css' %}">
+    {% endblock %}
 </head>
 <body bgcolor="Black">
     <div class="hollow-circle"></div>
