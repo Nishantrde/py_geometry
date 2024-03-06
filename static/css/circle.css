@@ -20,7 +20,8 @@ body {
     transform: translate(-50%, -50%); /* Center the position with translate */
     padding: 10px;
     background-color: #000000;
-    border: 1px solid #fff700;
+    border: 1px solid #3cf603;
     border-radius: 5px;
+    color: rgb(238, 255, 0);
 }
 
